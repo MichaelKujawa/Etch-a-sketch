@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <div class="header">
+        <h6>Select the size</h6>
+        <button id="popup" class="btn btn-danger">Select</button>
+    </div>
+    <p id="message"></p>
+    <p id="draw"></p>
+    <div class="container"></div>
+    <div class="footer">
+        <button onclick="setColor('black')">Black</button>
+        <button onclick="setColor('random')">Random</button>
+        <button onclick="resetBoard()">Reset</button>
+    </div>
+</body>
+</html>
